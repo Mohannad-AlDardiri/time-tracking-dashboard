@@ -12,6 +12,7 @@
     /* lg-py */
     @apply px-5% py-7 pb-4 sm:grid sm:grid-rows-4 sm:grid-cols-2 lg:grid-cols-13rem lg:grid-rows-2*13rem gap-7  bg-darkerBlue;
   }
+
   .time-categories {
     width: 100%;
     top: 7rem;
@@ -21,6 +22,7 @@
   .account-container {
     @apply relative mb-6 w-full h-48 col-span-2 lg:row-span-2 lg:w-48 lg:col-span-1 lg:h-96 sm:mb-0;
   }
+ 
   @media (min-width: 1024px) {
     .account-container {
       height: 28rem;

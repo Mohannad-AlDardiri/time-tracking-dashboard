@@ -3,7 +3,6 @@ import Data from "./CardsData.js";
 import ellipsisIcon from "./images/icon-ellipsis.svg";
 
 const Cards = ({ Time }) => {
-
   return Data.map((el) => {
     let timeframe = el.timeframes.weekly;
 
@@ -15,8 +14,6 @@ const Cards = ({ Time }) => {
       timeframe = el.timeframes.weekly;
     }
 
-
-
     return (
       <div className="card" key={el.id}>
         <div className={"card-color-bg bg-" + el.bgColor}>
@@ -25,7 +22,11 @@ const Cards = ({ Time }) => {
         <div className="card-main">
           <div className="card-head">
             <h3>{el.title}</h3>
-            <img src={ellipsisIcon} className="h-1 cursor-pointer" alt="ellipsis icon"/>
+            <img
+              src={ellipsisIcon}
+              className="h-1 cursor-pointer"
+              alt="ellipsis icon"
+            />
           </div>
           <div className="card-content ">
             <p className="hrs">{timeframe.current}hrs</p>

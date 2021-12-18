@@ -33,6 +33,7 @@ function App() {
           </div>
         </div>
         <Cards Time={Time}/>
+        <div className="bg-liteRed bg-softBlue bg-violet bg-softOrange bg-limeGreen bg-darkRed none"></div>
       </div>
     </div>
   );
