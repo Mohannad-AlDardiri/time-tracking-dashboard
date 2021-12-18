@@ -1,6 +1,6 @@
 {
-  "homepage": "http://mhndeee.github.io/REBONAME",
-  "name": "my-app",
+  "homepage": "http://mohanad-front-end.github.io/time-tracking-dashboard",
+  "name": "time tracking dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
