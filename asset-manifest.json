@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/REBONAME/static/css/main.8c7e02f0.chunk.css",
-    "main.js": "/REBONAME/static/js/main.157fba10.chunk.js",
-    "main.js.map": "/REBONAME/static/js/main.157fba10.chunk.js.map",
-    "runtime-main.js": "/REBONAME/static/js/runtime-main.8731d8c8.js",
-    "runtime-main.js.map": "/REBONAME/static/js/runtime-main.8731d8c8.js.map",
-    "static/js/2.ad71a4e6.chunk.js": "/REBONAME/static/js/2.ad71a4e6.chunk.js",
-    "static/js/2.ad71a4e6.chunk.js.map": "/REBONAME/static/js/2.ad71a4e6.chunk.js.map",
-    "static/js/3.ff0311e9.chunk.js": "/REBONAME/static/js/3.ff0311e9.chunk.js",
-    "static/js/3.ff0311e9.chunk.js.map": "/REBONAME/static/js/3.ff0311e9.chunk.js.map",
-    "index.html": "/REBONAME/index.html",
-    "static/css/main.8c7e02f0.chunk.css.map": "/REBONAME/static/css/main.8c7e02f0.chunk.css.map",
-    "static/js/2.ad71a4e6.chunk.js.LICENSE.txt": "/REBONAME/static/js/2.ad71a4e6.chunk.js.LICENSE.txt",
-    "static/media/icon-ellipsis.a57a4ac8.svg": "/REBONAME/static/media/icon-ellipsis.a57a4ac8.svg",
-    "static/media/icon-exercise.3e7b0282.svg": "/REBONAME/static/media/icon-exercise.3e7b0282.svg",
-    "static/media/icon-play.e8d4e569.svg": "/REBONAME/static/media/icon-play.e8d4e569.svg",
-    "static/media/icon-self-care.a161aff5.svg": "/REBONAME/static/media/icon-self-care.a161aff5.svg",
-    "static/media/icon-social.64be0c18.svg": "/REBONAME/static/media/icon-social.64be0c18.svg",
-    "static/media/icon-study.1f0a65e4.svg": "/REBONAME/static/media/icon-study.1f0a65e4.svg",
-    "static/media/icon-work.a3f124e5.svg": "/REBONAME/static/media/icon-work.a3f124e5.svg",
-    "static/media/image-jeremy.71cd41f1.png": "/REBONAME/static/media/image-jeremy.71cd41f1.png"
+    "main.css": "/time-tracking-dashboard/static/css/main.8c7e02f0.chunk.css",
+    "main.js": "/time-tracking-dashboard/static/js/main.dedf9b04.chunk.js",
+    "main.js.map": "/time-tracking-dashboard/static/js/main.dedf9b04.chunk.js.map",
+    "runtime-main.js": "/time-tracking-dashboard/static/js/runtime-main.0ba814c7.js",
+    "runtime-main.js.map": "/time-tracking-dashboard/static/js/runtime-main.0ba814c7.js.map",
+    "static/js/2.5643ce06.chunk.js": "/time-tracking-dashboard/static/js/2.5643ce06.chunk.js",
+    "static/js/2.5643ce06.chunk.js.map": "/time-tracking-dashboard/static/js/2.5643ce06.chunk.js.map",
+    "static/js/3.226af03a.chunk.js": "/time-tracking-dashboard/static/js/3.226af03a.chunk.js",
+    "static/js/3.226af03a.chunk.js.map": "/time-tracking-dashboard/static/js/3.226af03a.chunk.js.map",
+    "index.html": "/time-tracking-dashboard/index.html",
+    "static/css/main.8c7e02f0.chunk.css.map": "/time-tracking-dashboard/static/css/main.8c7e02f0.chunk.css.map",
+    "static/js/2.5643ce06.chunk.js.LICENSE.txt": "/time-tracking-dashboard/static/js/2.5643ce06.chunk.js.LICENSE.txt",
+    "static/media/icon-ellipsis.a57a4ac8.svg": "/time-tracking-dashboard/static/media/icon-ellipsis.a57a4ac8.svg",
+    "static/media/icon-exercise.3e7b0282.svg": "/time-tracking-dashboard/static/media/icon-exercise.3e7b0282.svg",
+    "static/media/icon-play.e8d4e569.svg": "/time-tracking-dashboard/static/media/icon-play.e8d4e569.svg",
+    "static/media/icon-self-care.a161aff5.svg": "/time-tracking-dashboard/static/media/icon-self-care.a161aff5.svg",
+    "static/media/icon-social.64be0c18.svg": "/time-tracking-dashboard/static/media/icon-social.64be0c18.svg",
+    "static/media/icon-study.1f0a65e4.svg": "/time-tracking-dashboard/static/media/icon-study.1f0a65e4.svg",
+    "static/media/icon-work.a3f124e5.svg": "/time-tracking-dashboard/static/media/icon-work.a3f124e5.svg",
+    "static/media/image-jeremy.71cd41f1.png": "/time-tracking-dashboard/static/media/image-jeremy.71cd41f1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8731d8c8.js",
-    "static/js/2.ad71a4e6.chunk.js",
+    "static/js/runtime-main.0ba814c7.js",
+    "static/js/2.5643ce06.chunk.js",
     "static/css/main.8c7e02f0.chunk.css",
-    "static/js/main.157fba10.chunk.js"
+    "static/js/main.dedf9b04.chunk.js"
   ]
 }
