@@ -51,7 +51,7 @@
   }
 
   .time-category {
-    @apply text-gray-400 text-sm hover:text-white font-bold transition-colors ease-out tracking-widest;
+    @apply text-gray-400 text-sm hover:text-white font-bold transition-colors ease-out tracking-widest cursor-pointer;
   }
   .active-time-category {
     @apply text-blue-50 font-bold text-sm tracking-widest ;
