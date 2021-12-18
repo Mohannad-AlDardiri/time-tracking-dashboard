@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;1,700&family=Rubik:wght@300;400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .pagebody {
+    @apply font-body h-screen bg-darkerBlue lg:flex justify-center items-center;
+  }
+  .main-container {
+    /* lg-py */
+    @apply px-5% py-7 pb-4 sm:grid sm:grid-rows-4 sm:grid-cols-2 lg:grid-cols-13rem lg:grid-rows-2*13rem gap-7  bg-darkerBlue;
+  }
+  .time-categories {
+    width: 100%;
+    top: 7rem;
+    background-color: #1c1f4a;
+    @apply flex justify-around items-center w-full h-20 pt-4 lg:top-72 lg:h-40 lg:pb-4 sm:pt-6 lg:pt-14 rounded-xl lg:flex-col lg:items-stretch absolute px-5;
+  }
+  .account-container {
+    @apply relative mb-6 w-full h-48 col-span-2 lg:row-span-2 lg:w-48 lg:col-span-1 lg:h-96 sm:mb-0;
+  }
+  @media (min-width: 1024px) {
+    .account-container {
+      height: 28rem;
+    }
+  }
+  .person-info {
+    @apply bg-infoBgColor flex w-full h-32 lg:h-80 lg:flex-col rounded-xl p-8 ml-0 relative z-10;
+  }
+  .person-img {
+    @apply w-16 h-16 mr-5 border-2 rounded-full sm:mr-9 border-white  lg:mb-7;
+  }
+  @media (min-width: 510px) {
+    .person-info p span {
+      @apply mb-1;
+    }
+    .person-info p {
+      @apply text-4xl;
+    }
+  }
+  .person-info p {
+    font-size: 1.7rem;
+    @apply text-white font-light text-2xl sm:text-4xl md:text-6xl lg:text-4xl pl-2 mt-2 sm:mt-0;
+  }
+  .person-info p span {
+    @apply text-gray-400 text-xs sm:text-sm block pr-5;
+  }
+
+  .time-category {
+    @apply text-gray-400 text-sm hover:text-white font-bold transition-colors ease-out tracking-widest;
+  }
+  .active-time-category {
+    @apply text-blue-50 font-bold text-sm tracking-widest ;
+  }
+  .dark-time-categories {
+    @apply bg-darkBlue w-full h-20 rounded-xl p-4 pt-14 absolute top-28 z-negative1 lg:w-52 lg:h-60 lg:top-52;
+  }
+  .card {
+    @apply relative text-white h-40 mb-5 sm:mb-0;
+  }
+  .card-color-bg {
+    @apply w-full h-32 rounded-xl absolute overflow-hidden;
+  }
+  .card-color-bg img {
+    @apply absolute w-16 right-3 -top-3;
+  }
+  .card .card-main {
+    @apply bg-darkBlue hover:bg-cotegHoverColor transition-colors ease-out w-full h-32 sm:h-40 lg:h-44 absolute top-9 rounded-xl p-5;
+  }
+  .card .card-head {
+    @apply flex justify-between items-center mb-2 lg:mb-4;
+  }
+  .card .card-content {
+    @apply flex justify-between items-center lg:justify-start lg:items-stretch lg:flex-col;
+  }
+  .card .card-content .hrs {
+    @apply text-5xl sm:text-6xl mb-3 font-light;
+  }
+  .card .card-content .last-week-report {
+    @apply text-gray-400 text-xs sm:text-sm;
+  }
+}

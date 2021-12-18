@@ -1,0 +1,124 @@
+        <div className="card">
+          <div className="card-color-bg bg-liteRed ">
+            <img
+              src={workIcon}
+              alt=""
+            />
+          </div>
+          <div className="card-main ">
+            <div className="card-head">
+              <h2>work</h2>
+              <img src={ellipsisIcon} className="h-1" alt="" />
+            </div>
+            <div className="card-content">
+              <p className="hrs ">32hrs</p>
+              <p className="last-week-report ">
+                Last Week - 36hrs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-color-bg bg-softBlue">
+            <img
+              src={playIcon}
+              alt=""
+            />
+          </div>
+          <div className="card-main bg-darkBlue hover:bg-cotegHoverColor transition-colors ease-out w-full h-32 sm:h-40 absolute top-9 rounded-xl p-5 lg:h-44">
+            <div className="card-head">
+              <h3>Play</h3>
+              <img src={ellipsisIcon} className="h-1" alt="" />
+            </div>
+            <div className="card-content  ">
+              <p className="hrs">10hrs</p>
+              <p className="last-week-report">
+                Last Week - 8hrs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-color-bg bg-darkRed">
+            <img
+              src={studyIcon}
+              alt=""
+            />
+          </div>
+          <div className="card-main ">
+            <div className="card-head">
+              <h3>Study</h3>
+              <img src={ellipsisIcon} className="h-1" alt="" />
+            </div>
+            <div className="card-content ">
+              <p className="hrs">4hrs</p>
+              <p className="last-week-report">
+                Last Week - 7hrs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-color-bg bg-limeGreen ">
+            <img
+              src={exerciseIcon}
+              style={{top: "-.3rem"}}
+              alt=""
+            />
+          </div>
+          <div className="card-main ">
+            <div className="card-head">
+              <h3>Exercise</h3>
+              <img src={ellipsisIcon} className="h-1" alt="" />
+            </div>
+            <div className="card-content ">
+              <p className="hrs lg:text-5xl">
+                4hrs
+              </p>
+              <p className="last-week-report">
+                Last Week - 5hrs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-color-bg bg-violet">
+            <img
+              src={socialIcon}
+              alt=""
+            />
+          </div>
+          <div className="card-main ">
+            <div className="card-head">
+              <h3>Social</h3>
+              <img src={ellipsisIcon} className="h-1" alt="" />
+            </div>
+            <div className="card-content ">
+              <p className="hrs">5hrs</p>
+              <p className="last-week-report">
+                Last Week - 10hrs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-color-bg bg-softOrange">
+            <img
+              src={selfCareIcon}
+              
+              alt=""
+            />
+          </div>
+          <div className="card-main">
+            <div className="card-head">
+              <h3>Self Care</h3>
+              <img src={ellipsisIcon} className="h-1" alt="" />
+            </div>
+            <div className="card-content ">
+              <p className="hrs">2hrs</p>
+              <p className="last-week-report">
+                Last Week - 2hrs
+              </p>
+            </div>
+          </div>
+        </div>
