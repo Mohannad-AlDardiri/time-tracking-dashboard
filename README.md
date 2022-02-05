@@ -1,6 +1,6 @@
 # Frontend Mentor - Time Tracking Dashboard
 
-![project design overview](./design/desktop-design.jpg)
+![project design overview](./design/Desktop.jpg)
 
 ## Welcome! 👋
 
@@ -70,7 +70,3 @@ Feedback is always welcome, so if you have any to give on this challenge please 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-
-I used my writing README file with [@AjeaSmith](https://github.com/AjeaSmith).
-
-![APM](https://img.shields.io/apm/l/React?color=red&label=time-tracking-dashboard&logo=mohanad%20mohamad)
