@@ -1,6 +1,6 @@
 # Frontend Mentor - Time Tracking Dashboard
 
-![project design overview](./design/Desktop.jpg)
+![project design overview](./design/desktop-design.jpg)
 
 ## Welcome! 👋
 
