@@ -13,7 +13,7 @@ function App() {
     SetTime(val)
   }
   return (
-    <div className="pagebody ">
+    <main className="pagebody ">
       <div className="main-container">
         <div className="account-container w-full">
           <div className="person-info ">
@@ -35,7 +35,7 @@ function App() {
         <Cards Time={Time}/>
         <div className="bg-liteRed bg-softBlue bg-violet bg-softOrange bg-limeGreen bg-darkRed none"></div>
       </div>
-    </div>
+    </main>
   );
 }
 
